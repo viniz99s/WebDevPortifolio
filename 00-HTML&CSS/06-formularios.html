@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML - Fale Conosco</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h2>Fale Conosco</h2>
+	</header>
+
+	<section>
+		<nav>
+			<div>
+				<h3>Aulas:</h3>
+				<ul>
+					<li><a href="./00-homepage.html">Home</a></li>
+					<li><a href="./01-tituloPágina.html">Introdução</a></li>
+					<li><a href="./02-formatacaoTexto.html">Formatação de Textos</a></li>
+					<li><a href="./03-listas&links.html">Listas e Links</a></li>
+					<li><a href="./04-tabelas.html">Tabelas</a></li>
+					<li><a href="./05-layoutSemantico.html">Layouts</a></li>
+					<li><a href="./06-formularios.html">Contato</a></li>
+                    <li><a href="./07-formulariosJavaScript.html">Cadastro</a></li>
+				</ul>
+			</div>		
+
+			<div>
+				<h3>Redes Sociais & Contatos:</h3>
+				<ul>
+					<li><a href="">LinkedIn</a></li>
+					<li><a href="">Instagram Profissional</a></li>
+				</ul>	
+			</div>
+		</nav>
+
+		<article>
+			<div>
+				<h1 class="tituloArtigo">Contatos</h1>
+
+				<p>Preencha os campos abaixo</p>
+			</div>
+			
+			<form method="post">
+				<div>
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">	
+				</div>
+
+				<div>
+					<label for="email">Email</label><br>
+					<input type="email" name="email" id="email" placeholder="Digite seu email">	
+				</div>
+
+				<div>
+					<label for="mensagem">Mensagem</label><br>
+					<textarea name="area" id="mensagem" rows="5" placeholder="Digite sua mensagem">
+					</textarea>	
+				</div>
+
+				<div>
+					<label>Linguagens você conhece?</label><br>
+					<input type="checkbox" name="linguagens" value="html"> HTML
+					<input type="checkbox" name="linguagens" value="css"> CSS
+					<input type="checkbox" name="linguagens" value="javascript"> Js	
+				</div>
+
+				<div>
+					<label>Qual linguagem você prefere?</label><br>
+					<input type="radio" name="linguagens" value="html"> HTML
+					<input type="radio" name="linguagens" value="css"> CSS
+					<input type="radio" name="linguagens" value="javascript"> Js	
+				</div>
+
+				<div>
+					<label>Qual sua cor preferida?</label>
+					<select>
+						<option value="Azul" selected>Azul</option>
+						<option value="Vermelho">Vermelho</option>
+						<option value="Verde">Verde</option>
+					</select>
+				</div>
+
+				<input type="submit">
+
+			</form>
+
+		</article>
+	</section>
+	<footer>
+		<p>Desenvolvido por Vinícuis</p>
+	</footer>
+</body>
+</html>

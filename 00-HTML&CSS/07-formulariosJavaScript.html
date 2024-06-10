@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Com JavaScript</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+		<h2>Curso Front-End</h2>
+	</header>
+    <section>
+
+        <nav>
+			<div>
+				<h3>Aulas:</h3>
+				<ul>
+					<li><a href="./00-homepage.html">Home</a></li>
+					<li><a href="./01-tituloPágina.html">Introdução</a></li>
+					<li><a href="./02-formatacaoTexto.html">Formatação de Textos</a></li>
+					<li><a href="./03-listas&links.html">Listas e Links</a></li>
+					<li><a href="./04-tabelas.html">Tabelas</a></li>
+					<li><a href="./05-layoutSemantico.html">Layouts</a></li>
+					<li><a href="./06-formularios.html">Contato</a></li>
+                    <li><a href="./07-formulariosJavaScript.html">Cadastro</a></li>
+				</ul>
+			</div>		
+
+			<div>
+				<h3>Redes Sociais & Contatos:</h3>
+				<ul>
+					<li><a href="">LinkedIn</a></li>
+					<li><a href="">Instagram Profissional</a></li>
+				</ul>	
+			</div>
+		</nav>
+
+        <article>
+            <div class="container">
+                <h3 class="tituloArtigo">Cadastro</h3>
+                <form id="formulario-1">
+                    <input type="text" placeholder="Digite Seu Nome" class="obrigatório" name="nome">
+                    <input type="text" placeholder="Digite Seu Email" class="obrigatório" name="email">
+                    <input type="text" placeholder="Digite Seu Telefone" class="" name="tel">
+                    <input type="text" placeholder="Digite Seu Cep" class="obrigatório" name="cep">
+                    <input type="text" placeholder="Digite Seu Cidade" class="obrigatório" name="cidade">
+                    <input type="text" placeholder="Digite Seu UF" class="obrigatório" name="uf">
+                    <div style="border:0px" class="mensagem"></div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div id="resultado"></div>
+            
+        </article>
+
+    </section>
+
+    <script type="text/JavaScript" scr="./codigosJs/form.js"></script>
+    <footer>
+		<p>Desenvolvido por Vinícuis</p>
+	</footer>
+</body>
+</html>

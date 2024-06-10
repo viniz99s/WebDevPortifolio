@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScriptXFormulários HTML</title>
+        <link rel="stylesheet" href="./css//style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="mensagem"></div>
+            <form id="formulario_01">
+                <p>Digite 4 notas</p>
+                <input type="text" class="numero" name="n1">
+                <input type="text" class="numero" name="n2">
+                <input type="text" class="numero" name="n3">
+                <input type="text" class="numero" name="n4">
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div id="resultado">
+
+            </div>
+
+            <form id="formulario_02">
+                <p>Cadastro</p>
+                <input type="text" placeholder = "Digite seu nome" class="obrigatorio" name="Nome">
+                <input type="email" placeholder = "Digite seu email" class="obrigatorio" name="Email">
+                <button type="submit">Enviar</button>
+            </form>
+            <script src="./js/script2.js"></script>
+        </div>
+    </body>
+</html>
